@@ -1,0 +1,28 @@
+{
+  "name": "midnight-sanctuary-server",
+  "version": "1.0.0",
+  "description": "Midnight Sanctuary \u2014 Production Backend (Gemini AI + Razorpay)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.5.1",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.3",
+    "nodemailer": "^6.9.16",
+    "razorpay": "^2.9.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "midnight-sanctuary",
+  "version": "1.0.0",
+  "description": "Full-stack digital wellness platform — Gemini AI + Razorpay + MongoDB",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  }
+}

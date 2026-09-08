@@ -1,0 +1,36 @@
+{
+  "name": "Midnight Sanctuary",
+  "short_name": "Sanctuary",
+  "description": "Reclaim your focus. Find your stillness.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#081425",
+  "background_color": "#081425",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "lifestyle", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Journal",
+      "short_name": "Journal",
+      "description": "Write a journal entry",
+      "url": "/app/journal",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Focus Timer",
+      "short_name": "Focus",
+      "description": "Start a focus session",
+      "url": "/app/health",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ]
+}
