@@ -1,4 +1,8 @@
-# 🌙 Midnight Sanctuary — v2.0 Production
+# 🌙 Midnight Sanctuary — Production
+
+Midnight Sanctuary is a modern digital detox and personal growth platform designed to help individuals overcome digital addiction, build healthier habits, improve productivity, and connect with like-minded people on similar self-improvement journeys.
+
+The platform combines habit building, community support, journaling, wellness resources, productivity tools, and AI-powered guidance into a single ecosystem focused on helping users reclaim control over their lives.
 
 > Reclaim your focus. Find your stillness.
 
@@ -6,7 +10,7 @@ A full-stack MERN wellness app with AI coaching, journaling, blocker, communitie
 
 ---
 
-## ✅ All 20 Features Implemented
+## ✅ Features Implemented
 
 | # | Feature | Status | Location |
 |---|---------|--------|----------|
@@ -30,75 +34,6 @@ A full-stack MERN wellness app with AI coaching, journaling, blocker, communitie
 | 18 | Focus Session History Chart | ✅ | `Health.jsx` — 14-day bar chart |
 | 19 | Communities Real Member Count | ✅ | `communityController.js` (DB-driven) |
 | 20 | Loading Skeleton Screens | ✅ | `SkeletonCard.jsx` — used across all pages |
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+
-- MongoDB Atlas (or local MongoDB)
-- Gemini API Key (for AI features)
-
-### 1. Clone & Install
-
-```bash
-# Install server
-cd server && npm install
-
-# Install client
-cd ../client && npm install
-```
-
-### 2. Configure Environment
-
-```bash
-cp server/.env.example server/.env
-# Fill in your values (see below)
-```
-
-### 3. Run Dev
-
-```bash
-# Terminal 1 — Server (port 5000)
-cd server && npm run dev
-
-# Terminal 2 — Client (port 5173)
-cd client && npm run dev
-```
-
----
-
-## ⚙️ Environment Variables
-
-```env
-# Database
-MONGO_URI=mongodb+srv://<user>:<pass>@cluster.mongodb.net/midnight-sanctuary
-
-# Auth
-JWT_SECRET=your_super_secret_key_change_this
-
-# App
-NODE_ENV=development
-PORT=5000
-CLIENT_URL=http://localhost:5173
-
-# AI (Gemini)
-GEMINI_API_KEY=your_gemini_api_key
-
-# Payments (Razorpay)
-RAZORPAY_KEY_ID=your_key_id
-RAZORPAY_KEY_SECRET=your_key_secret
-
-# Email (nodemailer)
-# Leave blank in dev → uses Ethereal (fake SMTP, preview URL in console)
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_SECURE=false
-EMAIL_USER=your@gmail.com
-EMAIL_PASS=your_app_password
-EMAIL_FROM=noreply@midnightsanctuary.app
-```
 
 ---
 
@@ -146,7 +81,7 @@ Toggle dark/light mode via:
 
 ---
 
-## 📝 API Endpoints (New in v2)
+## 📝 API Endpoints
 
 ```
 POST  /api/auth/forgot-password     # Send reset link
